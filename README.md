@@ -138,4 +138,26 @@ A Review is written by a User for a Property.
 A Payment is tied to one Booking and User.
 
 
+🧩 Feature Breakdown
+
+User Management
+
+Enables user sign-up, login, and profile editing. Essential for both guests and hosts to access personalized dashboards.
+
+Property Management
+
+Hosts can add, edit, or remove property listings. Includes property details like images, descriptions, and pricing.
+
+Booking System
+
+Guests can view available properties, book stays, and manage their reservations.
+
+Payment Integration
+
+Supports secure transactions between guests and hosts, with payment confirmation and status tracking.
+
+Review System
+
+Guests can rate their experience and leave feedback, helping improve trust and property quality.
+
 
