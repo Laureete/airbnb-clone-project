@@ -190,3 +190,28 @@ Protects sensitive user data (e.g., passwords, payments).
 Maintains system reliability and prevents attacks.
 
 Ensures compliance with data protection standards.
+
+
+⚙️ CI/CD Pipeline
+
+What is CI/CD?
+CI/CD stands for Continuous Integration and Continuous Deployment. It automates testing and deployment processes to ensure fast, error-free releases.
+
+Why it matters:
+
+Minimizes human error
+
+Speeds up delivery
+
+Ensures consistency across environments
+
+Tools You Can Use:
+
+GitHub Actions: Automate testing, linting, and deployment on code push.
+
+Docker: Package the app into containers for consistent local and production environments.
+
+Docker Compose: Manage multi-service environments like Django + PostgreSQL + Redis.
+
+Heroku / Render / AWS / DigitalOcean: Cloud deployment platforms for production builds.
+
