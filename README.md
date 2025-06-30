@@ -161,3 +161,32 @@ Review System
 Guests can rate their experience and leave feedback, helping improve trust and property quality.
 
 
+🔐 API Security
+
+Authentication
+
+Implemented via JWT (JSON Web Tokens) to verify user identity and manage sessions.
+
+Authorization
+
+Role-based access to ensure users can only interact with resources they own (e.g., a host can't edit another host’s property).
+
+Rate Limiting
+
+Prevents abuse and denial-of-service attacks by limiting the number of API requests per time unit.
+
+Input Validation
+
+Prevents injection attacks and ensures clean, expected data is processed.
+
+HTTPS & Secure Headers
+
+All data is transmitted over HTTPS. Headers like Content-Security-Policy and X-Frame-Options are enabled.
+
+✅ Why it's important:
+
+Protects sensitive user data (e.g., passwords, payments).
+
+Maintains system reliability and prevents attacks.
+
+Ensures compliance with data protection standards.
