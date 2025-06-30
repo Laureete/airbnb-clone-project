@@ -82,3 +82,60 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
+📊 Database Design
+Entities and Fields
+
+Users
+
+id: Primary key
+username: Unique username
+email: User's email address
+password_hash: Encrypted password
+date_joined: Timestamp of account creation
+
+Properties
+
+id: Primary key
+user_id: Foreign key (owner/host)
+title: Property title
+description: Property details
+location: Address or coordinates
+
+Bookings
+
+id: Primary key
+user_id: Foreign key (guest)
+property_id: Foreign key
+check_in: Start date
+check_out: End date
+
+Reviews
+
+id: Primary key
+user_id: Foreign key
+property_id: Foreign key
+rating: Integer (1–5)
+comment: Text review
+
+Payments
+
+id: Primary key
+user_id: Foreign key
+booking_id: Foreign key
+amount: Transaction amount
+status: e.g., pending, completed
+
+Relationships
+
+A User can own multiple Properties.
+
+A User can make multiple Bookings.
+
+A Booking is linked to one Property and one User.
+
+A Review is written by a User for a Property.
+
+A Payment is tied to one Booking and User.
+
+
+
